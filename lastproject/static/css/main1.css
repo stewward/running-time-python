@@ -1,0 +1,44 @@
+/* This is where the style of the site comes in. */
+
+/* This changes the font, colour */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(199, 64, 159);
+  }
+  
+  
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* This allows the text to be aligned in the center of the site */
+  h2 {
+    font-size: 3em;
+    margin-top: 40px;
+    text-align: center;
+    letter-spacing: -2px;
+  }
+  
+  
+  .menu {
+    float: right;
+    margin-top: 8px;
+  }
+  
+  .menu li {
+    display: inline;
+  }
+  
+  .menu li + li {
+    margin-left: 35px;
+  }
+  
+  .menu li a {
+    color: #444;
+    text-decoration: none;
+  }
+  
+  
